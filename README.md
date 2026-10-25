@@ -28,5 +28,3 @@ signed; the app verifies that signature before installing anything.
 | `Cutz.app.tar.gz` | The bundle the updater downloads in-place. |
 | `Cutz.app.tar.gz.sig` | Updater signature for the above. |
 | `latest.json` | Update manifest the app polls. |
-
-Releases are built and published by GitHub Actions from the private repo.
