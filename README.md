@@ -3,10 +3,6 @@
 Public distribution point for [Cutz](https://cutz-bef64.web.app), a desktop app
 for learning and practising DJ scratching.
 
-There is no source code here. Cutz is developed in a private repository; this
-repo exists purely so the app's built-in updater can fetch builds, which it
-can't do from a private repo's release assets.
-
 ## Downloads
 
 Grab the latest `.dmg` from [Releases](../../releases/latest).
@@ -16,9 +12,7 @@ currently supported.
 
 ## Automatic updates
 
-Installed copies check [`latest.json`](../../releases/latest/download/latest.json)
-on launch and prompt when a newer version is available. Every update bundle is
-signed; the app verifies that signature before installing anything.
+Installed copies check for the latest update on launch and prompt when a newer version is available.
 
 ## Contents of a release
 
